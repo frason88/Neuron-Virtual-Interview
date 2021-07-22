@@ -1,0 +1,191 @@
+html {background-image:url(images/bluelight.jpg)}
+
+
+.area-1 h1{
+    background-color:rgb(223, 190, 43);
+    color:black;
+    font-family:Garamond;
+    font-size:50px;
+    text-align:center;
+    border: 3px solid white;
+    width:80%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-top:20px;
+    margin-right:auto;
+    margin-left:auto;
+    /*background-image:url('images/bluelight.jpg');*/
+}
+
+.area-1 .roomID{
+    font-size:20px;
+    font-weight:bold;
+    color:rgb(223, 190, 43);
+}
+
+.area-1 .roomCode{
+    font-size:17px;
+    color:white;
+}
+.area-1 .joinRoom{
+    background-color:grey;
+    color:white;
+    margin:0px;
+    }
+    .area-1 .joinRoom:hover{
+        background:blue;
+        color:white;
+    }
+
+.area-1 .createRoom{
+background-color:grey;
+color:white;
+margin:0px;
+    }
+    .area-1 .createRoom:hover{
+        background-color:blue;
+        color:white;
+    }
+.area-1 .canvasButtons{
+    width:80%;
+    }
+
+
+.area-1 .undo{
+    padding: 8px 15px;
+    font-family: Courier;
+    background-color: grey;
+    color: white;
+    }
+    .area-1 .undo:hover{
+    background-color:rgb(223, 190, 43);
+     color:white;
+    }
+
+.area-1 .increaseBrushRadius{
+    padding: 8px 15px;
+    font-family: Courier;
+    background-color: grey;
+    color: white; 
+    }
+    .area-1 .increaseBrushRadius:hover{
+    background-color:rgb(223, 190, 43);
+    color:white;
+    }
+
+.area-1 .decreaseBrushRadius{
+    padding: 8px 15px;
+    font-family: Courier;
+    background-color: grey;
+    color: white;
+    }
+    .area-1 .decreaseBrushRadius:hover{
+    background-color:rgb(223, 190, 43);
+    color:white;
+    }
+.area-1 .currentBrushNumber{
+color:white;
+font-style:bold;
+}
+
+.area-1 .clearBoard{
+    padding: 8px 15px;
+    font-family: Courier;
+    background-color: grey;
+    color: white;
+    }
+    .area-1 .clearBoard:hover{
+    background-color:rgb(223, 190, 43);
+    color:white;
+    }
+
+.area-1 .colorRed{
+    padding:5px 10px;
+    font-family:Courier;
+    background-color:lightcoral;
+    color: black;
+    }
+    .area-1 .colorRed:hover{
+    background-color:red;
+    color:white;
+    }
+.area-1 .colorOrange{
+    padding:5px 10px;
+    font-family:Courier;
+    background-color:lightsalmon;
+    color: black;
+    }
+    .area-1 .colorOrange:hover{
+    background-color:rgb(255, 123, 0);
+    color:white;
+    }
+
+.area-1 .colorYellow{
+    padding:5px 10px;
+    font-family:Courier;
+    background-color:lightgoldenrodyellow;
+    color: black;
+    }
+    .area-1 .colorYellow:hover{
+    background-color:yellow;
+    color:black;
+    }
+
+.area-1 .colorGreen{
+    padding:5px 10px;
+    font-family:Courier;
+    background-color:lightgreen;
+    color: black;
+    }
+    .area-1 .colorGreen:hover{
+    background-color:green;
+    color:white;
+    }
+
+.area-1 .colorBlue{
+    padding:5px 10px;
+    font-family:Courier;
+    background-color:lightblue;
+    color: black;
+    }
+    .area-1 .colorBlue:hover{
+    background-color:blue;
+    color:white;
+    }
+
+.area-1 .colorPurple{
+    padding:5px 10px;
+    font-family:Courier;
+    background-color:orchid;
+    color: black;
+    }
+    .area-1 .colorPurple:hover{
+    background-color:purple;
+    color:white;
+    }
+
+.area-1 .colorBlack{
+        padding:5px 10px;
+        font-family:Courier;
+        background-color:lightgray;
+        color: black;
+        }
+        .area-1 .colorBlack:hover{
+        background-color:black;
+        color:white;
+        }
+
+    @media screen and (min-width: 640px){
+        .flex-container{
+            display: flex;
+        }
+    }
+    .flex2 {
+        flex: 1px;
+        margin-left:890px;
+        padding-top:0px;
+    }
+    .flex1{
+        flex: 0 1 300px;
+    }
+
